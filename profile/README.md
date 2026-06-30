@@ -25,8 +25,8 @@ Lidless Labs builds open-source SOC, network, and homelab tooling for MCP client
 
 ## Network
 
-- [librenms-mcp](https://github.com/lidless-labs/librenms-mcp) - LibreNMS devices, ports, alerts, acknowledgements, and maintenance windows.
-- [n8n-ops-mcp](https://github.com/lidless-labs/n8n-ops-mcp) - n8n workflow inspection, validation, execution, and ops automation.
+- [librenmsctl](https://github.com/lidless-labs/librenmsctl) - LibreNMS devices, ports, alerts, acknowledgements, and maintenance windows.
+- [n8nctl](https://github.com/lidless-labs/n8nctl) - n8n workflow inspection, validation, execution, and ops automation.
 - [watchtower](https://github.com/lidless-labs/watchtower) - NOC dashboard with interactive topology and LibreNMS/Proxmox integration.
 - [portgrid](https://github.com/lidless-labs/portgrid) - Switch-port visualization for LibreNMS with color-coded views and search.
 - [cutsheet](https://github.com/lidless-labs/cutsheet) - Network change intelligence: watches device configs and tells you what changed.
@@ -35,9 +35,9 @@ Lidless Labs builds open-source SOC, network, and homelab tooling for MCP client
 ## Homelab
 
 - [proxmox-mcp](https://github.com/lidless-labs/proxmox-mcp) - Proxmox VE inventory and safe-write VM, container, and node operations.
-- [adguard-mcp](https://github.com/lidless-labs/adguard-mcp) - AdGuard Home DNS filtering across read, safe-write, and destructive tiers.
-- [immich-mcp](https://github.com/lidless-labs/immich-mcp) - Immich photo library search, albums, people, and duplicate workflows.
-- [jellyfin-mcp](https://github.com/lidless-labs/jellyfin-mcp) - Jellyfin playback sessions, library scans, and user admin.
+- [adguardctl](https://github.com/lidless-labs/adguardctl) - AdGuard Home DNS filtering across read, safe-write, and destructive tiers.
+- [immichctl](https://github.com/lidless-labs/immichctl) - Immich photo library search, albums, people, and duplicate workflows.
+- [jellyctl](https://github.com/lidless-labs/jellyctl) - Jellyfin playback sessions, library scans, and user admin.
 - [proxguard](https://github.com/lidless-labs/proxguard) - Proxmox security auditor with CIS benchmarks and remediation scripts.
 - [samba-ad-migration](https://github.com/lidless-labs/samba-ad-migration) - Windows AD to Samba file-share migration scripts for Proxmox.
 
