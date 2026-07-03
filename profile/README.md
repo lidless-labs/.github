@@ -1,6 +1,6 @@
 # Lidless Labs
 
-Constant Vigilance.
+The eye does not close.
 
 Lidless Labs builds open-source SOC, network, and homelab tooling for MCP clients and AI-assisted operations. The work is local-first, MIT licensed where possible, and shaped around real systems that have to be queried under pressure.
 
