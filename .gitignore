@@ -13,6 +13,9 @@ memory/20[0-9][0-9]-[0-1][0-9]-[0-3][0-9].md
 # Review inbox: ambiguous handoffs awaiting human triage.
 memory/handoff-inbox/
 
+# Outcome records include local receipt paths.
+memory/outcome/
+
 # brigade local state (logs, scrub cache, dogfood runs, work sessions).
 .brigade/
 .brigade/backups/
