@@ -1,0 +1,27 @@
+{
+  "kicker": "LIDLESS LABS · FLEET MAP",
+  "title": "one watch floor, three operating lanes",
+  "subtitle": "The public repos cluster around SOC tooling, network operations, and homelab control surfaces, all tied back to lidless.dev.",
+  "footer": "security · network · homelab",
+  "lanes": [
+    { "id": "hub", "label": "HUB" },
+    { "id": "soc", "label": "SECURITY / SOC" },
+    { "id": "network", "label": "NETWORK" },
+    { "id": "homelab", "label": "HOMELAB" }
+  ],
+  "nodes": [
+    { "id": "lidless", "lane": "hub", "row": 0, "title": "lidless.dev", "meta": "watch floor and catalog", "status": "source" },
+    { "id": "mcp", "lane": "soc", "row": 0, "title": "SOC MCPs", "meta": "Wazuh, MISP, Suricata, TheHive", "status": "focus" },
+    { "id": "intel", "lane": "soc", "row": 1, "title": "intel tools", "meta": "MITRE, Maltego, briefs" },
+    { "id": "netops", "lane": "network", "row": 0, "title": "network ops", "meta": "LibreNMS, n8n, Watchtower" },
+    { "id": "inventory", "lane": "network", "row": 1, "title": "change views", "meta": "cutsheets and port maps" },
+    { "id": "lab", "lane": "homelab", "row": 0, "title": "homelab control", "meta": "Proxmox, AdGuard, Immich" }
+  ],
+  "edges": [
+    { "from": "lidless", "to": "mcp" },
+    { "from": "mcp", "to": "intel" },
+    { "from": "mcp", "to": "netops" },
+    { "from": "netops", "to": "inventory" },
+    { "from": "netops", "to": "lab" }
+  ]
+}

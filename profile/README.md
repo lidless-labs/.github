@@ -4,6 +4,10 @@ The eye does not close.
 
 Lidless Labs builds open-source SOC, network, and homelab tooling for MCP clients and AI-assisted operations. The work is local-first, MIT licensed where possible, and shaped around real systems that have to be queried under pressure.
 
+![Lidless Labs fleet map: lidless.dev anchors the watch floor, with Security/SOC MCPs, network operations tools, and homelab control surfaces branching into their own lanes](assets/fleet-map-workflow.svg)
+
+Generated from [`assets/workflows/fleet-map.json`](assets/workflows/fleet-map.json) with the [Lidless fleet-kit workflow renderer](https://github.com/lidless-labs/lidless-fleet-kit/tree/main/workflow).
+
 ## Security / SOC
 
 - [wazuh-mcp](https://github.com/lidless-labs/wazuh-mcp) - Wazuh SIEM/XDR: alerts, agents, vulnerabilities, and rules.
