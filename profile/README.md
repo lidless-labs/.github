@@ -4,7 +4,7 @@
 
 # Lidless Labs
 
-The eye does not close.
+Constant viligence!
 
 Home of [SOC Stack](https://github.com/lidless-labs/soc-stack): one command stands up a full open-source Security Operations Center on a single Proxmox host. The rest of Lidless Labs is the instrument rack around it: SIEM, IDS, threat intel, network, and homelab tools that a shell, a cron job, or an AI client can query under pressure. Local-first, open source, no telemetry.
 
