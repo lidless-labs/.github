@@ -4,7 +4,7 @@
 
 # Lidless Labs
 
-Constant viligence!
+Constant vigilance!
 
 Home of [SOC Stack](https://github.com/lidless-labs/soc-stack): one command stands up a full open-source Security Operations Center on a single Proxmox host. The rest of Lidless Labs is the instrument rack around it: SIEM, IDS, threat intel, network, and homelab tools that a shell, a cron job, or an AI client can query under pressure. Local-first, open source, no telemetry.
 
@@ -76,3 +76,11 @@ curl -sSL https://raw.githubusercontent.com/lidless-labs/soc-stack/main/install.
 ```
 
 Or browse the [watch floor at lidless.dev](https://lidless.dev) and start with the tool that matches the system you already run.
+
+## Part of Escoffier Labs
+
+Lidless Labs is an [Escoffier Labs](https://github.com/escoffier-labs) project. Escoffier Labs builds shared memory and orchestration tools for coding agents, including [BrigadeStack](https://brigadestack.com).
+
+## Built by
+
+Built and maintained by [Solomon Neas](https://solomonneas.dev).
